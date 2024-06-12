@@ -1,0 +1,28 @@
+section.faq .banner-faq {
+    width: 100%;
+    aspect-ratio: 4/1.5;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+section.faq .accordion-item {
+    border-radius: 4px !important;
+    overflow: hidden !important;
+    border: none !important;
+}
+
+section.faq .accordion-item .accordion-button {
+    font-size: 1.125rem;
+    font-family: var(--urbanist-bold);
+    color: rgba(var(--dark-color), 1);
+}
+
+section.faq .accordion-item .accordion-button:not(.collapsed) {
+    background-color: rgba(var(--light-color), 1) !important;
+    border-bottom: 1px solid rgba(var(--primary-color), 1)  !important;
+}
+
+section.faq .accordion-item .accordion-body {
+    font-size: 0.913rem;
+    color: rgba(var(--dark-color), 0.62) !important;
+}
