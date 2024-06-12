@@ -1,0 +1,14 @@
+section.about .description {
+    width: 80%;
+}
+
+section.about .banner-about {
+    width: 100%;
+    aspect-ratio: 4/3;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+section.about .benefit-list .list-item p {
+    font-size: 0.913rem;
+}
