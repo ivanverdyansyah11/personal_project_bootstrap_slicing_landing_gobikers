@@ -1,0 +1,19 @@
+section.gallery .image-portait-small,
+section.gallery .image-square,
+section.gallery .image-portait {
+    width: 100%;
+    border-radius: 4px;
+    object-fit: cover;
+}
+
+section.gallery .image-portait-small {
+    aspect-ratio: 3/4;
+}
+
+section.gallery .image-square {
+    aspect-ratio: 1;
+}
+
+section.gallery .image-portait {
+    aspect-ratio: 2.15/4;
+}
