@@ -1,0 +1,14 @@
+section.service .card-service {
+    padding: 24px;
+    background-color: rgba(var(--light-color), 1);
+    border-radius: 8px;
+}
+
+section.service .card-service .service-image {
+    width: 72px;
+}
+
+section.service .card-service .service-title {
+    font-size: 1.25rem;
+    font-family: var(--urbanist-bold);
+}
