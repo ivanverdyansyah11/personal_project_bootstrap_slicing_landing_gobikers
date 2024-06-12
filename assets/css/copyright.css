@@ -1,0 +1,37 @@
+footer.copyright {
+    margin-bottom: 20px;
+}
+
+footer.copyright .line-primary {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    width: 100%;
+    height: 1px;
+    background-color: rgba(var(--primary-color), 1);
+}
+
+footer.copyright p {
+    font-size: 0.875rem;
+    color: rgba(var(--primary-color), 1);
+    background-color: #F7F7F7;
+    padding-right: 16px;
+}
+
+footer.copyright .button-group {
+    padding-left: 16px;
+    background-color: #F7F7F7;
+}
+
+footer.copyright .button-sosmed {
+    width: 32px;
+    height: 32px;
+    border-radius: 4px;
+    background-color: rgba(var(--primary-color), 1);
+}
+
+footer.copyright .button-sosmed:hover {
+    opacity: 0.8;
+}
