@@ -1,0 +1,63 @@
+section.hero {
+    height: 100vh;
+    background-image: url('../image/section-hero/background-image.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section.hero .container {
+    height: 100vh;
+    padding-top: 92px;
+}
+
+section.hero .shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgb(30,30,30);
+    background: linear-gradient(90deg, rgba(30,30,30,1) 0%, rgba(30,30,30,0.32) 100%);
+}
+
+section.hero .description {
+    color: rgba(var(--light-color), 0.62);
+    width: 80%;
+}
+
+section.hero .button-primary:hover {
+    opacity: 0.8;
+    background-color: rgba(var(--primary-color), 1);
+    color: rgba(var(--light-color), 1);
+}
+
+section.hero .button-outline {
+    background-color: rgba(var(--primary-color), 0.12);
+    color: rgba(var(--light-color), 1);
+}
+
+section.hero .button-outline:hover {
+    border-color: rgba(var(--primary-color), 1);
+    background-color: rgba(var(--primary-color), 0.32);
+}
+
+section.hero .filter-input {
+    padding: 4px 4px 4px 24px;
+    background-color: rgba(var(--light-color), 1);
+    border-radius: 6px;
+}
+
+section.hero .filter-input .line {
+    width: 1px;
+    height: 100%;
+    background-color: rgba(var(--dark-color), 0.62);
+    color: rgba(var(--light-color), 1);
+}
+
+section.hero .filter-input .input {
+    padding: 0;
+    border: none;
+    outline: none;
+    font-size: 0.913rem;
+}
