@@ -1,0 +1,14 @@
+section.payment .card-payment {
+    padding: 24px;
+    background-color: rgba(var(--light-color), 1);
+    border-radius: 8px;
+}
+
+section.payment .card-payment .payment-image {
+    width: 72px;
+}
+
+section.payment .card-payment .payment-title {
+    font-size: 1.25rem;
+    font-family: var(--urbanist-bold);
+}
