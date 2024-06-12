@@ -1,0 +1,39 @@
+section.product .card-product {
+    padding: 24px;
+    border-radius: 6px;
+    background-color: rgba(var(--light-color), 1);
+}
+
+section.product .card-product .motorcycle-image {
+    width: 100%;
+}
+
+section.product .card-product .motorcycle-title {
+    font-size: 1.25rem;
+    font-family: var(--urbanist-bold);
+}
+
+section.product .card-product .motorcycle-description {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    color: rgba(var(--dark-color), 0.62);
+    font-size: 0.913rem;
+}
+
+section.product .card-product .motorcycle-price {
+    font-size: 0.875rem;
+    color: rgba(var(--dark-color), 1);
+}
+
+section.product .card-product .motorcycle-price span {
+    color: rgba(var(--primary-color), 1);
+    font-family: var(--urbanist-semibold);
+}
+
+section.product .card-product .button-primary:hover {
+    background-color: rgba(var(--primary-color), 1);
+    color: rgba(var(--light-color), 1);
+    opacity: 0.8;
+}
